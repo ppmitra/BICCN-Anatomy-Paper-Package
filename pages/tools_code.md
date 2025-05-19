@@ -6,7 +6,7 @@ title: Tools & Code
 # Code Resources
 
 ## Data portals
-- [NeuroXiv.org]((https://neuroxiv.org))
+- [NeuroXiv.org](https://neuroxiv.org)
 - [HortaCloud.janelia.org](https://hortacloud.janelia.org)
 - [Brain Architecture Portal](https://brainarchitecture.org)
 
