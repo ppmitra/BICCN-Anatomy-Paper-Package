@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# XYZ Anatomy Package
+# BICCN Anatomy Package
 
-The XYZ Anatomy Package is the result of a community effort… This paper package is linked to previous efforts of the Brain Initiative Cell Census Network: https://knowledge.brain-map.org/program/biccn
+The BICCN Anatomy Package is the result of a community effort… This paper package is linked to previous efforts of the Brain Initiative Cell Census Network: https://knowledge.brain-map.org/program/biccn
 
 In this page you will find the following information:
 - Links to package articles and brief descriptions of their contributions
