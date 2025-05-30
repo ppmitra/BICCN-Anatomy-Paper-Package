@@ -5,17 +5,24 @@ title: Data Sets
 
 # Available Data Sets
 
+
 ## Categories
 - Raw Whole Brain Imaging Data
+  - Tracer injected data
+  - Data for single neuron skeletonization
+  - Cell density data
+<!--
   - STPT
   - fMOST
   - Light sheet
   - ...
-  
+-->
+
 - Processed Data
-  - Tract traces
+  <!-- - Tract traces -->
   - Local neuron tracings
   - Full neuron tracings
+  - Cell counts
      
 ## Brain Image Library raw datasets
 Datasets and associated metadata hosted at BIL. Please, be patient, the table takes a few seconds to load.
@@ -28,7 +35,7 @@ Datasets and associated metadata hosted at BIL. Please, be patient, the table ta
   📄 Download Table
 </a>
 
-## Tract traces
+## Tracer injected data
 
 ### Dong lab tract traces
 
