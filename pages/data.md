@@ -74,6 +74,6 @@ Comprehensive collection of standardized single neuron tracings mapped to the mo
 
 
 ## Access
-All datasets are available under XYZ license.
+All datasets are available under  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-[Browse Datasets](#) | [Download Instructions](#) | [Usage Guidelines](#)
+<!-- [Browse Datasets](#) | [Download Instructions](#) | [Usage Guidelines](#) -->
