@@ -12,10 +12,12 @@ title: Tools & Code
 
 ## Registration Framework
 Tools and utilities for registering your data with our mouse reference atlas.
-- Data preprocessing scripts
+<!-- - Data preprocessing scripts -->
 - Registration algorithms
-- Validation tools
+  - [Generative Diffeomorphic Mapping](https://github.com/twardlab/emlddmm)
+<!-- - Validation tools -->
 
+<!--
 ## Analysis Tools
 Collection of analysis scripts and notebooks.
 - Statistical analysis
@@ -28,3 +30,5 @@ Collection of analysis scripts and notebooks.
 
 
 [View Code Documentation](#) | [GitHub Repository](#) 
+
+-->
