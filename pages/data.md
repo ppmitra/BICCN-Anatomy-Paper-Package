@@ -11,12 +11,7 @@ title: Data Sets
   - Tracer injected data
   - Data for single neuron skeletonization
   - Cell density data
-<!--
-  - STPT
-  - fMOST
-  - Light sheet
-  - ...
--->
+
 
 - Processed Data
   <!-- - Tract traces -->
