@@ -19,7 +19,7 @@ title: Data Sets
   - Full neuron tracings
   - Cell counts
      
-## Supplemental Data Table – BIL Datasets (S5)
+## BIL Datasets (S5)
 <span style="color: #555; font-size: 0.95em;">
   This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within the embedded sheet below.
 </span>
@@ -101,7 +101,7 @@ title: Data Sets
   ></iframe>
 </div>
 
-### Supplemental Data Table – Cell Distributions (S6)
+## Cell Distributions (S6)
 <span style="color: #555; font-size: 0.95em;">
   This table summarizes the cell distribution data and related metadata used in the study. You can scroll and search within the embedded sheet below.
 </span>
