@@ -19,7 +19,7 @@ title: Data Sets
   - Full neuron tracings
   - Cell counts
      
-### Supplemental Data Table – BIL Datasets (S5)
+## Supplemental Data Table – BIL Datasets (S5)
 <span style="color: #555; font-size: 0.95em;">
   This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within the embedded sheet below.
 </span>
@@ -46,9 +46,8 @@ title: Data Sets
   ></iframe>
 </div>
 
-## Tracer injected data
+## Tracer injections (S2)
 
-### Supplemental Data Table – Tracer Injections 
 <span style="color: #555; font-size: 0.95em;">
   This table provides detailed information on all tracer injections used in the study, including injection sites, tracers, and associated metadata. You can scroll and search within the embedded sheet below.
 </span>
@@ -75,30 +74,9 @@ title: Data Sets
   ></iframe>
 </div>
 
-## Local Neuron Tracings
-Comprehensive collection of standardized single neuron tracings mapped to the mouse brain Common Coordinate Framework v3 (CCFv3).
-
-### Yang lab dendritome
-
-<div style="overflow:auto; width:100%; height:auto; max-height:500px;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQm7HfR0nVxYIO_ZKh7UedEdUToooVwJqzjrAz3IsrnGgIc9omkbUEBtK-IJT4JzA/pubhtml?widget=true&amp;headers=false" width="100%" height="400"></iframe>
-</div>
-
-### Dong lab local neurons
-
-<div style="overflow:auto; width:100%; height:auto; max-height:500px;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSSQhhscYlcDYUTTED76-DQjXVlQR3JbLAiD4_3gYu0KnL6n67YTfHKX3lw6EMzEw/pubhtml?widget=true&amp;headers=false" width="100%" height="400"></iframe>
-</div>
-
-### Cai lab Brainbow local neurons
-
-<div style="overflow:auto; width:100%; height:auto; max-height:500px;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEBTF7AydjB2ruvkRvq6bDdRgP064xdPv9c1Kl8qWqKPzwJNyeVJnRlVAcCMTPzA/pubhtml?widget=true&amp;headers=false" width="100%" height="400"></iframe>
-</div>
-
-### Supplemental Data Table – Single Neuron SWCs (S4)
+## Single Neuron Tracings (S4)
 <span style="color: #555; font-size: 0.95em;">
-  This table contains the standardized single neuron SWC files and associated metadata used in the study. You can scroll and search within the embedded sheet below.
+  This table contains the standardized single neuron SWC files mapped to the mouse brain Common Coordinate Framework v3 (CCFv3) and associated metadata used in the study. You can scroll and search within the embedded sheet below.
 </span>
 
 <div style="
