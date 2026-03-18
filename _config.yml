@@ -8,7 +8,6 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-lunr-js-search
 
 # Exclude files from processing
 exclude:

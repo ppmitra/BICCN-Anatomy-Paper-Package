@@ -1,0 +1,43 @@
+{% comment %}
+  Renders a CSV dataset as a searchable HTML table.
+  Usage: {% include searchable-table.html data=site.data.s2_tracer_injections_tab1 tab_name="Dong" %}
+{% endcomment %}
+{% assign rows = include.data %}
+{% if rows.size > 0 %}
+{% assign first_row = rows | first %}
+<div class="searchable-table-wrapper">
+  {% if include.tab_name %}
+  <div class="table-tab-label">{{ include.tab_name }}</div>
+  {% endif %}
+  <div class="table-search-bar">
+    <input type="search" class="table-search-input" placeholder="Search within this table..." aria-label="Search table">
+  </div>
+  <div class="table-scroll-container">
+    <table class="data-table">
+      <thead>
+        <tr>
+          {% for pair in first_row %}
+          <th>{{ pair[0] }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr class="data-row">
+          {% for pair in row %}
+          <td>
+            {% assign val = pair[1] %}
+            {% if val contains "http" or val contains "https" %}
+            <a href="{{ val }}" target="_blank" rel="noopener">{{ val | truncate: 60 }}</a>
+            {% else %}
+            {{ val }}
+            {% endif %}
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}

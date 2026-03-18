@@ -1,0 +1,397 @@
+/* Base styles */
+:root {
+    --primary-color: #1a237e;    /* Deep blue */
+    --accent-color: #00bcd4;     /* Cyan */
+    --background-color: #f5f5f5; /* Light grey */
+    --text-color: #212121;       /* Dark grey */
+    --header-gradient: linear-gradient(135deg, #1a237e 0%, #303f9f 100%);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+/* Reset header styles */
+.site-header {
+    background: #0a0a1a;
+    padding: 0.5rem 0;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.site-logo {
+    width: 200px;
+    height: auto;
+    fill: currentColor; /* This allows the SVG to inherit color */
+}
+
+/* For dark mode or color changes */
+.site-logo:hover {
+    opacity: 0.9;
+}
+
+.site-title {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.project-label {
+    color: white;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Navigation */
+/* Navigation */
+.main-nav {
+    background: #0a0a1a;
+    padding: 0.8rem 0;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0 2rem;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: white;
+}
+
+/* Underline effect on hover and active */
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent-color);
+    transition: width 0.2s ease;
+}
+
+.main-nav a:hover::after,
+.main-nav a.active::after {
+    width: 100%;
+}
+
+/* Search */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(10,10,26,0.7), rgba(10,10,26,0.7)), 
+                url('../images/axons_4_3.jpeg') center/cover;
+    padding: 6rem 2rem;
+    color: white;
+}
+
+.hero-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Content */
+.content {
+    margin-top: 1rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary-color);
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.site-footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 0.5rem 1rem;
+        flex-wrap: wrap;
+    }
+
+    .logo-container {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .site-logo {
+        width: 150px;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #0a0a1a;
+        padding: 1rem;
+        z-index: 100;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .main-nav.active {
+        display: block;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        padding: 0 1rem;
+        gap: 1rem;
+    }
+
+    .main-nav li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding: 0.5rem 0;
+    }
+
+    .main-nav li:last-child {
+        border-bottom: none;
+    }
+
+    .search-container {
+        width: 100%;
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+    }
+
+    .hero-section {
+        padding: 3rem 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Add to your existing CSS */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #0a0a1a;
+        padding: 1rem;
+    }
+
+    .main-nav.active {
+        display: block;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+}
+
+.search-results {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#search-info {
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+#results-container .result-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.result-item h2 {
+    margin: 0 0 0.5rem;
+}
+
+.result-item .result-excerpt {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.searchable-table-wrapper {
+  margin: 16px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fafbfc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+.table-search-bar {
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.table-scroll-container {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.data-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.data-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.data-table a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.data-table a:hover {
+  text-decoration: underline;
+}
+
+.table-tab-label {
+  font-weight: 600;
+  padding: 12px 16px 0;
+  color: #555;
+  font-size: 0.95rem;
+}

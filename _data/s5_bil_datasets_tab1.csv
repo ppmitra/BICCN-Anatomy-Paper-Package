@@ -1,0 +1,20 @@
+,Higest level label that describes a dataset,,,,,,,,What is most useful?,,What is most useful?,,,,
+,Dataset Types,2nd Dataset Type (optional),Includes(1),Includes(2),,Signal ,,Animal,Genotype (Background?),Background,Virus,Virus Genotype,Virus Delivery,Virus Mechanism of Spread,Imaging Modalities
+,,,,,,,,,,,,,,,
+,Cell Density,Cell Density,Images,Images,,Gene,,Mouse,WT,B6,AAV(1/2),Strains,stereotactic,Anterograde,Confocal
+,Morphology,Morphology,SWC,SWC,,Cell type,,Human,Transgenics (LOTS),Swiss Webster,Rabies?,Promoter elements / Genes,intravenous,Retrograde,EM
+,Tracer Injected,Tracer Injected,,,,,,NHP,,Human,,"Reporter (GFP,CRE,FLIP, etc)",,Systemic?,fMOST
+,,,,,,,,,,crab-eating macaque,,,,,Histology
+,,,,,,,,* This is already well fleshed out in metadata,,marmoset,,,,,Light Sheet
+,,,,,,,,,,Fruit fly,,,,,MRI
+,,,,,,,,,,,,,,,Patch-seq
+,,,,,,,,,,,,,,,Spatial Transcriptomics
+,,,,,,,,,,,,,,,STPT
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,Labels of interest,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,How many swc files?,,,SWC,,,,,,,,,,,
+,Where are they?,LOcation present?,,Registered,CCF?,,,,,,,,,,
