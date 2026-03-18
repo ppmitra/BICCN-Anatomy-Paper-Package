@@ -1,0 +1,456 @@
+Manually Curated: Subject to change,,,,,,,,,,,,,,,Total SWC Files,,Unique Contributors,Number of Rows,Rows Remaining to be Verified by contributor,,Locations
+Dataset Type,Number of Rows,,Dataset Type 2,Number of Rows,,Virus Spread,Number of Rows,,Modality,Number of Rows,,Atlas Aligned?,Number of Rows,,274879,,"Zeng, Hongkui",1300,1300,,ACAd Anterior cingulate area;dorsal part
+Cell Density,1045,,Morphology,1169,,Anterograde,172,,Confocal,3,,Both,34,,,,"Dong, Hongwei",387,387,,ACAd:MOp:SSp-ll:SSp-n
+Morphology,1,,,0,,Retrograde,1008,,EM,301,,FALSE,1,,,,Z. Josh Huang,345,345,,ACAd:TTd:TTd
+Tracer Injected,1522,,,0,,Systemic Injection,23,,fMOST,530,,TRUE,286,,,,Hongwei Dong,35,35,,ACAd/MOs:DP:DP
+,0,,,0,,,0,,Histology,33,,,0,,,,Ed Lein,405,405,,ACAd/PL_5:ORB-vl:LSR:LHA
+,0,,,0,,,0,,Light Sheet,364,,,0,,,,"Lein, Ed",609,609,,ACAv
+,0,,,0,,,0,,MRI,44,,,0,,,,Xiaoyin Chen,7,7,,"ACAv Anterior cingulate area, ventral part"
+,0,,,0,,,0,,Patch-seq,999,,,0,,,,Evan Macosko,33,33,,ACAv:ILA:ILA
+,Total,,,Total,,,Total,,Spatial Transcriptomics,47,,,Total,,,,Ulrich Mueller,4,4,,ACAv:MOs: PL
+,2568,,,1169,,,1203,,STPT,2008,,,321,,,,Bosiljka Tasic,202,202,,ACAv:MOs:fail
+,,,,,,,,,,0,,,,,,,"Osten, Pavel",67,67,,ACAv:VAL:PF
+,,,,,,,,,,0,,,,,,,Pavel Osten,307,307,,ACB:CP/CLA:CP(r):ACAv
+,,,,,,,,,,0,,,,,,,Yongsoo Kim,552,552,,ACB:SUB:SUB
+,,,,,,,,,,0,,,,,,,Brian Cleary,12,12,,ACB:SUBv:SUBv:ACB
+,,,,,,,,,,0,,,,,,,Guoping Feng,218,218,,ACB.m:SNC/r.d.m
+,,,,,,,,,,0,,,,,,,"Yang, X. William",78,78,,aco:VMHvl/TU:PVp:BSTpr
+,,,,,,,,,,0,,,,,,,"Seeds, Andrew",134,134,,ACVII/PARN:MOp_m:CEAm/c
+,,,,,,,,,,0,,,,,,,Guoping Fneg,36,36,,AHN:SUB:SUB
+,,,,,,,,,,Total,,,,,,,Xiaowei Zhuang,18,18,,AId
+,,,,,,,,,,4329,,,,,,,Xiaowei Zhuang and Catherine Dulac,4,4,,AId Agranular insular area;dorsal part
+,,,,,,,,,,,,,,,,,Qingming Luo,26,26,,Ald_2/3:MOs_5:MOp_5
+,,,,,,,,,,,,,,,,,Andreas Tolias,1,1,,ALv:PIR:TEa
+,,,,,,,,,,,,,,,,,Robert Cudmore,2,2,,AM Anteromedial nucleus
+,,,,,,,,,,,,,,,,,Mitra,1,1,,AnG
+,,,,,,,,,,,,,,,,,Xiaowei Zhuang and Yi Zhang,1,1,,AOB Accessory olfactory bulb
+,,,,,,,,,,,,,,,,,"Kriegstein, Arnold",3,3,,AONm;TTd;MOs;ACAd;AD;AMv;fx;RSPagl;RSPd
+,,,,,,,,,,,,,,,,,Li Zhang,4,4,,AOrG
+,,,,,,,,,,,,,,,,,Guoqiang Bi,54,54,,APN Anterior pretectal nucleus
+,,,,,,,,,,,,,,,,,Long Cai,5,5,,ARH/VMH:COApm:MEAav
+,,,,,,,,,,,,,,,,,AIBS/Seung/Tolias,301,301,,AUDd:MOp:PTLp
+,,,,,,,,,,,,,,,,,"Daigle, Tanya",7,7,,Auditory cortex
+,,,,,,,,,,,,,,,,,"Tasic, Bosiljka",29,29,,AUDp
+,,,,,,,,,,,,,,,,,"Ting, Jonathan",30,30,,AUDp Primary auditory area
+,,,,,,,,,,,,,,,,,"Arlotta, Paola",2,2,,AUDpo
+,,,,,,,,,,,,,,,,,"Peng, Hanchuan",34,34,,AUDpo Posterior auditory area
+,,,,,,,,,,,,,,,,,Hong-Wei Dong,2,2,,AUDv:AUDp:AUDp
+,,,,,,,,,,,,,,,,,Hongkui Zeng,167,167,,BA:CPc.dm:fail:PL
+,,,,,,,,,,,,,,,,,"Luo, Qingming",59,59,,Barrington's nucleus
+,,,,,,,,,,,,,,,,,Yongsoo Kim Lab,93,93,,BLA Basolateral amygdalar nucleus
+,,,,,,,,,,,,,,,,,"Zhang, Li",11,11,,BLA:PIR:OT
+,,,,,,,,,,,,,,,,,,0,0,,BLA.al:EPd:EPd
+,,,,,,,,,,,,,,,,,,0,0,,BLA.al:PEd:CPc.dl
+,,,,,,,,,,,,,,,,,,0,0,,BLAa:TEa:PER/ECT
+,,,,,,,,,,,,,,,,,,0,0,,BMAp:CA1vv:CA1vv
+,,,,,,,,,,,,,,,,,,Total,Remaining,,BMAp:LA:PT
+,,,,,,,,,,,,,,,,,,5585,5585,,Brain
+,,,,,,,,,,,,,,,,,,,,,brain
+,,,,,,,,,,,,,,,,,,,,,BST:MPO:MPNI
+,,,,,,,,,,,,,,,,,,,,,BST:VMHvl/TU:ARH:LSv/BSTpr
+,,,,,,,,,,,,,,,,,,,,,C.P.cv:BLAa.am:BLAa.am
+,,,,,,,,,,,,,,,,,,,,,Ca
+,,,,,,,,,,,,,,,,,,,,,CA1
+,,,,,,,,,,,,,,,,,,,,,CA1 Field CA1
+,,,,,,,,,,,,,,,,,,,,,CA1:CA1v:CA1v
+,,,,,,,,,,,,,,,,,,,,,CA1:EPv:IMD
+,,,,,,,,,,,,,,,,,,,,,CA1i:SUBvv:CA3
+,,,,,,,,,,,,,,,,,,,,,CA3:BLAa:CLA
+,,,,,,,,,,,,,,,,,,,,,CEAc:CA1v:CA1v
+,,,,,,,,,,,,,,,,,,,,,CEAc:CP:BMAp:BLAa
+,,,,,,,,,,,,,,,,,,,,,CeG
+,,,,,,,,,,,,,,,,,,,,,"Cerebellum, Brain stem"
+,,,,,,,,,,,,,,,,,,,,,"Cerebellum, Medulla"
+,,,,,,,,,,,,,,,,,,,,,CgGr
+,,,,,,,,,,,,,,,,,,,,,CLA
+,,,,,,,,,,,,,,,,,,,,,CLA Claustrum
+,,,,,,,,,,,,,,,,,,,,,CLA:CP:RE:IAM
+,,,,,,,,,,,,,,,,,,,,,CLA:CP:SMT:CM
+,,,,,,,,,,,,,,,,,,,,,CLA:PT:SI:MDm/l
+,,,,,,,,,,,,,,,,,,,,,Coronal sections
+,,,,,,,,,,,,,,,,,,,,,Cortex
+,,,,,,,,,,,,,,,,,,,,,cortex (30x)
+,,,,,,,,,,,,,,,,,,,,,Cortex (30x) (dendritome)
+,,,,,,,,,,,,,,,,,,,,,cortical intratelencephalic Layer 2/3;Layer 5
+,,,,,,,,,,,,,,,,,,,,,CP Caudoputamen
+,,,,,,,,,,,,,,,,,,,,,CP;SSp-ul;SSp-bfd;SSs
+,,,,,,,,,,,,,,,,,,,,,CP;SSp;LH
+,,,,,,,,,,,,,,,,,,,,,CP:CP:LD
+,,,,,,,,,,,,,,,,,,,,,CP:fail:CP:CP
+,,,,,,,,,,,,,,,,,,,,,CP:PVT:LHA/SI:MDm
+,,,,,,,,,,,,,,,,,,,,,CP:RE/PR:ec:ENTl
+,,,,,,,,,,,,,,,,,,,,,CP:RE/SMT/PR:fail:SUBv-sr/m
+,,,,,,,,,,,,,,,,,,,,,CP:SSp:SSp
+,,,,,,,,,,,,,,,,,,,,,CP:SUBv:SUBv
+,,,,,,,,,,,,,,,,,,,,,CP/SI:FS/CP:SI/FS:LSR/SF
+,,,,,,,,,,,,,,,,,,,,,CPc:BLA:MOP
+,,,,,,,,,,,,,,,,,,,,,CPc:BLA:MOs
+,,,,,,,,,,,,,,,,,,,,,CPc:LA:LA
+,,,,,,,,,,,,,,,,,,,,,CPc:MOpul:MOpul
+,,,,,,,,,,,,,,,,,,,,,CPC.v:BLA.al:BLA.al
+,,,,,,,,,,,,,,,,,,,,,CPcam:BLAam:BLAam
+,,,,,,,,,,,,,,,,,,,,,CPi:BLAa:CM
+,,,,,,,,,,,,,,,,,,,,,CPi:PF:ECT
+,,,,,,,,,,,,,,,,,,,,,CPr:CPc:PO:PSV
+,,,,,,,,,,,,,,,,,,,,,CPr:VISC:VPM:PRNc
+,,,,,,,,,,,,,,,,,,,,,CTX
+,,,,,,,,,,,,,,,,,,,,,CX
+,,,,,,,,,,,,,,,,,,,,,Cx
+,,,,,,,,,,,,,,,,,,,,,DCO Dorsal cochlear nucleus
+,,,,,,,,,,,,,,,,,,,,,DMH:SUB:SUB
+,,,,,,,,,,,,,,,,,,,,,DMHa:CM:RE
+,,,,,,,,,,,,,,,,,,,,,DP:CA1:CA1
+,,,,,,,,,,,,,,,,,,,,,DP:DP:ACAd
+,,,,,,,,,,,,,,,,,,,,,DP:DP:MOs
+,,,,,,,,,,,,,,,,,,,,,DP:failed:TTd
+,,,,,,,,,,,,,,,,,,,,,ECT:LA:BLA
+,,,,,,,,,,,,,,,,,,,,,ECT:MOp:CP
+,,,,,,,,,,,,,,,,,,,,,ENTI:VISI:PAG:PCG
+,,,,,,,,,,,,,,,,,,,,,ENTl
+,,,,,,,,,,,,,,,,,,,,,"ENTm Entorhinal area, medial part, dorsal zone"
+,,,,,,,,,,,,,,,,,,,,,EPd: fail: MRN: ENTl
+,,,,,,,,,,,,,,,,,,,,,fail:CLA:CP(r):PL
+,,,,,,,,,,,,,,,,,,,,,fail:MOp-ul:SSp-bfd:SSp-bfd/SSs
+,,,,,,,,,,,,,,,,,,,,,fail:PAG:MRN:APN
+,,,,,,,,,,,,,,,,,,,,,fail:PL:PL:ILA
+,,,,,,,,,,,,,,,,,,,,,fail:PSV:CUN
+,,,,,,,,,,,,,,,,,,,,,fail:RSPd:SCig/RSPd
+,,,,,,,,,,,,,,,,,,,,,fail:SSp-tr:SSp-bfd:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,fail:SSp-ul:fail:AUDv
+,,,,,,,,,,,,,,,,,,,,,fail:SSp:MOp:MOs
+,,,,,,,,,,,,,,,,,,,,,fail:SSp:SSp:MOp
+,,,,,,,,,,,,,,,,,,,,,fail:VPM:PO:ZI
+,,,,,,,,,,,,,,,,,,,,,FroL
+,,,,,,,,,,,,,,,,,,,,,"GPi Globus pallidus, internal segment"
+,,,,,,,,,,,,,,,,,,,,,GRN Gigantocellular reticular nucleus
+,,,,,,,,,,,,,,,,,,,,,Head peripheral nervous system (i.e. bristle mechanosensory neurons)
+,,,,,,,,,,,,,,,,,,,,,HIP
+,,,,,,,,,,,,,,,,,,,,,HIPP
+,,,,,,,,,,,,,,,,,,,,,Hippocampal region
+,,,,,,,,,,,,,,,,,,,,,Hippocampus
+,,,,,,,,,,,,,,,,,,,,,HYP - Hypothalamus
+,,,,,,,,,,,,,,,,,,,,,IA:BST:COApl:opt
+,,,,,,,,,,,,,,,,,,,,,ICe:SCdg:SCig:SC/PAG
+,,,,,,,,,,,,,,,,,,,,,IFG
+,,,,,,,,,,,,,,,,,,,,,IFGtr
+,,,,,,,,,,,,,,,,,,,,,ILA:ORBl:ORBvl
+,,,,,,,,,,,,,,,,,,,,,ILA:SUBvv:SUBvv
+,,,,,,,,,,,,,,,,,,,,,internuc:ACB:AHNc:AUDv
+,,,,,,,,,,,,,,,,,,,,,IO:IO:CUL4/5
+,,,,,,,,,,,,,,,,,,,,,IOG
+,,,,,,,,,,,,,,,,,,,,,IPN:ZI:LH
+,,,,,,,,,,,,,,,,,,,,,ITG
+,,,,,,,,,,,,,,,,,,,,,L2/3/4 IT
+,,,,,,,,,,,,,,,,,,,,,L5 PT
+,,,,,,,,,,,,,,,,,,,,,LD Lateral dorsal nucleus of thalamus
+,,,,,,,,,,,,,,,,,,,,,LD:SCig-c:SCdg
+,,,,,,,,,,,,,,,,,,,,,LD:SCig:SCdg
+,,,,,,,,,,,,,,,,,,,,,LHA:CA1v:CA1v
+,,,,,,,,,,,,,,,,,,,,,LHA:DP:DP
+,,,,,,,,,,,,,,,,,,,,,LHA:ICe:NDB:LPO
+,,,,,,,,,,,,,,,,,,,,,LHA:LHA:LHA:LHA
+,,,,,,,,,,,,,,,,,,,,,LHA:LHA:LHA:Tu
+,,,,,,,,,,,,,,,,,,,,,LHA:LHA:VPM:LHA
+,,,,,,,,,,,,,,,,,,,,,LHA:LHA:ZI
+,,,,,,,,,,,,,,,,,,,,,LMC
+,,,,,,,,,,,,,,,,,,,,,LOrG
+,,,,,,,,,,,,,,,,,,,,,LP:VISp:VISp
+,,,,,,,,,,,,,,,,,,,,,LPO:LSr:NDB_v:TTd
+,,,,,,,,,,,,,,,,,,,,,LS:SUB:SUB
+,,,,,,,,,,,,,,,,,,,,,LSr:CA1vv:CA1vv
+,,,,,,,,,,,,,,,,,,,,,LSr:LHA:LHA:LHA
+,,,,,,,,,,,,,,,,,,,,,LSr:SUBv:SUBv
+,,,,,,,,,,,,,,,,,,,,,LSv:CA1vv:CA1vv
+,,,,,,,,,,,,,,,,,,,,,M
+,,,,,,,,,,,,,,,,,,,,,M1
+,,,,,,,,,,,,,,,,,,,,,M2
+,,,,,,,,,,,,,,,,,,,,,main olfactory bulb
+,,,,,,,,,,,,,,,,,,,,,main olfactory epithelium
+,,,,,,,,,,,,,,,,,,,,,Massachusetts Institute of Technology
+,,,,,,,,,,,,,,,,,,,,,MB:CP:ZI:SC
+,,,,,,,,,,,,,,,,,,,,,MB:RN:MRN:PRNc
+,,,,,,,,,,,,,,,,,,,,,MD
+,,,,,,,,,,,,,,,,,,,,,MD Mediodorsal nucleus of thalamus
+,,,,,,,,,,,,,,,,,,,,,MD:PAG:ZI:PL
+,,,,,,,,,,,,,,,,,,,,,MDm/PVT:PF:LHA:PTLp:VISam:PAG
+,,,,,,,,,,,,,,,,,,,,,MEA_av:COA_pl:BMAa:BST
+,,,,,,,,,,,,,,,,,,,,,MFG
+,,,,,,,,,,,,,,,,,,,,,MOB Main olfactory bulb
+,,,,,,,,,,,,,,,,,,,,,Mop
+,,,,,,,,,,,,,,,,,,,,,MOp
+,,,,,,,,,,,,,,,,,,,,,MOp Primary motor area
+,,,,,,,,,,,,,,,,,,,,,MOp ul
+,,,,,,,,,,,,,,,,,,,,,Mop upper limb area
+,,,,,,,,,,,,,,,,,,,,,MOp_5:MOp_5:MOp_5
+,,,,,,,,,,,,,,,,,,,,,Mop_5:Mop_6a:Mop_6a:Mop_2/3
+,,,,,,,,,,,,,,,,,,,,,MOp_5/6:SSp-ul_5:SSp-bfd:SSs/VISC_5
+,,,,,,,,,,,,,,,,,,,,,MOp_6:SSp-ul_5:SSs/SSp-n_5:VISC_5/6a
+,,,,,,,,,,,,,,,,,,,,,MOp_L5:fail:SSp_5:MOs_5
+,,,,,,,,,,,,,,,,,,,,,MOp_ul:MOp_ul:MOp_ul(c)
+,,,,,,,,,,,,,,,,,,,,,MOp-mo;MOp-ul
+,,,,,,,,,,,,,,,,,,,,,MOp-ul;MOp
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:MOp
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:MOp/MOs
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:PF
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:SSp_ll
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,MOp:MOp:VAL
+,,,,,,,,,,,,,,,,,,,,,MOp:MOs
+,,,,,,,,,,,,,,,,,,,,,MOp:SSp-ll:SSp-bfd:ACAd_2/3
+,,,,,,,,,,,,,,,,,,,,,MOp:SSp-ul:SSp-bfd:MOs
+,,,,,,,,,,,,,,,,,,,,,Mop:SSp-ul:SSp-tr
+,,,,,,,,,,,,,,,,,,,,,MOp:SSp:MOp
+,,,,,,,,,,,,,,,,,,,,,MOp:SSs:fail:fail
+,,,,,,,,,,,,,,,,,,,,,Mos
+,,,,,,,,,,,,,,,,,,,,,MOs
+,,,,,,,,,,,,,,,,,,,,,MOs Secondary motor area
+,,,,,,,,,,,,,,,,,,,,,MOs_5:ACAd_5:MOs_5:MOs/ACAd_2/3/5
+,,,,,,,,,,,,,,,,,,,,,MOs_5:MOp-ul:SSp_ll:SSs-bfd
+,,,,,,,,,,,,,,,,,,,,,MOs-mi;MOp-ul;SSp-ul
+,,,,,,,,,,,,,,,,,,,,,MOs-mi;MOs-ul;SSp-ul
+,,,,,,,,,,,,,,,,,,,,,MOs-ul;VISC;MOp-ul;SSp-ul
+,,,,,,,,,,,,,,,,,,,,,MOs;CP;VPL;PF
+,,,,,,,,,,,,,,,,,,,,,MOs:CPc:VPL:PF
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:EC:fail
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:ORBm
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:SSp-bfd:SSp-bfd/SSs
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:SSp-ul:SSP-n
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:SSp-ul:VISC
+,,,,,,,,,,,,,,,,,,,,,MOs:MOp:SSp:SSs
+,,,,,,,,,,,,,,,,,,,,,MOs:MOS/MOp:fail:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,MOs:SSp-ul:SSp-bfd:SSp-bfd/SSs
+,,,,,,,,,,,,,,,,,,,,,MOs:SSp:CPi:SSs
+,,,,,,,,,,,,,,,,,,,,,MOs/MOp:MOp/MOs:SSp-bfd/SSs
+,,,,,,,,,,,,,,,,,,,,,MOs/MOp:MOs/MOp:SSp-ul:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,Motor cortex
+,,,,,,,,,,,,,,,,,,,,,Motor Cortex
+,,,,,,,,,,,,,,,,,,,,,MPN:SUB:SUB
+,,,,,,,,,,,,,,,,,,,,,MPO:LPO:LHA:BSTpr
+,,,,,,,,,,,,,,,,,,,,,MPO:MPO:AVP:MPO
+,,,,,,,,,,,,,,,,,,,,,MPO:PA:VMHc
+,,,,,,,,,,,,,,,,,,,,,MRN:APN:MRN:VTA/MRN
+,,,,,,,,,,,,,,,,,,,,,MRN:MRN:fail:RN
+,,,,,,,,,,,,,,,,,,,,,MRN:MRN:MRN:MRN
+,,,,,,,,,,,,,,,,,,,,,MRN:MRN:PRNc
+,,,,,,,,,,,,,,,,,,,,,MRN:VII:VII
+,,,,,,,,,,,,,,,,,,,,,MRN/IC:SC:SC:SC
+,,,,,,,,,,,,,,,,,,,,,MTG
+,,,,,,,,,,,,,,,,,,,,,multiple
+,,,,,,,,,,,,,,,,,,,,,NA
+,,,,,,,,,,,,,,,,,,,,,NCX
+,,,,,,,,,,,,,,,,,,,,,NDB Diagonal band nucleus
+,,,,,,,,,,,,,,,,,,,,,NOT:MOp:VAL:PF
+,,,,,,,,,,,,,,,,,,,,,nucleus accumbens (NAc)
+,,,,,,,,,,,,,,,,,,,,,OccL
+,,,,,,,,,,,,,,,,,,,,,ORBl
+,,,,,,,,,,,,,,,,,,,,,ORBl/MOs:fail:MOs_5:fail
+,,,,,,,,,,,,,,,,,,,,,ORBm
+,,,,,,,,,,,,,,,,,,,,,ORBvl
+,,,,,,,,,,,,,,,,,,,,,ORBvl:LHA:LSc:PL
+,,,,,,,,,,,,,,,,,,,,,ORBvl:PTLP:VISam:CA1
+,,,,,,,,,,,,,,,,,,,,,OT:BLAam:IMD
+,,,,,,,,,,,,,,,,,,,,,PaCG
+,,,,,,,,,,,,,,,,,,,,,PAG:PAG:MRN:APN
+,,,,,,,,,,,,,,,,,,,,,PAG:V:PRNr
+,,,,,,,,,,,,,,,,,,,,,PAG.d:PAG.m:PAG.d:PPN
+,,,,,,,,,,,,,,,,,,,,,PAG.d:PAG.m:PAG.v/DR:PPN
+,,,,,,,,,,,,,,,,,,,,,PAGm:SCig-b:AT
+,,,,,,,,,,,,,,,,,,,,,ParL
+,,,,,,,,,,,,,,,,,,,,,PARN Parvicellular reticular nucleus
+,,,,,,,,,,,,,,,,,,,,,PARN:IRN:PPy:fail
+,,,,,,,,,,,,,,,,,,,,,PB:PBIc:KF:SUT
+,,,,,,,,,,,,,,,,,,,,,PCG:PCG:fail:fail
+,,,,,,,,,,,,,,,,,,,,,Periaqueductal gray
+,,,,,,,,,,,,,,,,,,,,,Peripheral
+,,,,,,,,,,,,,,,,,,,,,PF;VAL;VM;CP
+,,,,,,,,,,,,,,,,,,,,,PF:ECT:CPi
+,,,,,,,,,,,,,,,,,,,,,PF(v):CP(c):SSp_II:ZIc/d
+,,,,,,,,,,,,,,,,,,,,,PFC - Prefrontal cortex
+,,,,,,,,,,,,,,,,,,,,,PFC - Prefrontal cortex; BA10
+,,,,,,,,,,,,,,,,,,,,,PG Pontine gray
+,,,,,,,,,,,,,,,,,,,,,PG:VISp:VISp
+,,,,,,,,,,,,,,,,,,,,,PG/TRN:fail:SSp
+,,,,,,,,,,,,,,,,,,,,,PIR Piriform area
+,,,,,,,,,,,,,,,,,,,,,PIR:CM:CPi
+,,,,,,,,,,,,,,,,,,,,,PIRa:AUDv:DP/TTd
+,,,,,,,,,,,,,,,,,,,,,PL
+,,,,,,,,,,,,,,,,,,,,,PL Prelimbic area
+,,,,,,,,,,,,,,,,,,,,,PL_II:BLA.al:BLA.al
+,,,,,,,,,,,,,,,,,,,,,PL:ACB:CP:FS
+,,,,,,,,,,,,,,,,,,,,,PL:BLA:AMv
+,,,,,,,,,,,,,,,,,,,,,PL:BMAp:IAD/AM
+,,,,,,,,,,,,,,,,,,,,,PL:fail:PL:MOs
+,,,,,,,,,,,,,,,,,,,,,PL:PL:ACAd
+,,,,,,,,,,,,,,,,,,,,,PO Posterior complex of the thalamus
+,,,,,,,,,,,,,,,,,,,,,PO;VAL;VM
+,,,,,,,,,,,,,,,,,,,,,PO:PO:PO:PO
+,,,,,,,,,,,,,,,,,,,,,PO:RT:VAL
+,,,,,,,,,,,,,,,,,,,,,PO/CL:PO/VAL:PO:VPM/PO
+,,,,,,,,,,,,,,,,,,,,,PPN:PARN:PAG
+,,,,,,,,,,,,,,,,,,,,,PPN:PB:KF:SUT
+,,,,,,,,,,,,,,,,,,,,,PRE:SUBdv:SUBdd
+,,,,,,,,,,,,,,,,,,,,,Prefrontal Cortex
+,,,,,,,,,,,,,,,,,,,,,PRG
+,,,,,,,,,,,,,,,,,,,,,primary motor cortex (Mop)
+,,,,,,,,,,,,,,,,,,,,,PRNc:PRNc:TRN:PRNc
+,,,,,,,,,,,,,,,,,,,,,PRNc.d:PRNc.v:PRNc.m:PRNc.l
+,,,,,,,,,,,,,,,,,,,,,PSV:POR:SC:SC
+,,,,,,,,,,,,,,,,,,,,,PTLp+DG:VISp:VISp
+,,,,,,,,,,,,,,,,,,,,,PVH:BST:BST
+,,,,,,,,,,,,,,,,,,,,,PVH:LS:LS
+,,,,,,,,,,,,,,,,,,,,,PVp:SUBvv:SUBvv
+,,,,,,,,,,,,,,,,,,,,,PVT:SUBvv:SUBvv
+,,,,,,,,,,,,,,,,,,,,,RCH:VMHdm:DMHa:LHA
+,,,,,,,,,,,,,,,,,,,,,RE Nucleus of reuniens
+,,,,,,,,,,,,,,,,,,,,,RE;AM;PVp;RSPd
+,,,,,,,,,,,,,,,,,,,,,RE;AM;RSPv
+,,,,,,,,,,,,,,,,,,,,,RE;AMd;MM;RSPv
+,,,,,,,,,,,,,,,,,,,,,RE;RT;AV;MM;tp
+,,,,,,,,,,,,,,,,,,,,,RE:SUB:SUB
+,,,,,,,,,,,,,,,,,,,,,RN:MRN:PRNr
+,,,,,,,,,,,,,,,,,,,,,RN:PSV:SUV/PARN:fail
+,,,,,,,,,,,,,,,,,,,,,"RSPagl Retrosplenial area, lateral agranular part"
+,,,,,,,,,,,,,,,,,,,,,RSPagl;LP;ACAd;MOs;ORBvl
+,,,,,,,,,,,,,,,,,,,,,RSPd
+,,,,,,,,,,,,,,,,,,,,,RSPd;PO;MOs;ORBl
+,,,,,,,,,,,,,,,,,,,,,RSPd:VISp:VISp
+,,,,,,,,,,,,,,,,,,,,,RSPv
+,,,,,,,,,,,,,,,,,,,,,"RSPv Retrosplenial area, ventral part"
+,,,,,,,,,,,,,,,,,,,,,RSPv Retrosplenial area;ventral part
+,,,,,,,,,,,,,,,,,,,,,RSPv:ACAd/ACAv:ACAd/ACAv
+,,,,,,,,,,,,,,,,,,,,,RT:LP:PH:SCig-c
+,,,,,,,,,,,,,,,,,,,,,RT:SSp:SSp
+,,,,,,,,,,,,,,,,,,,,,RT:VPL:VAL
+,,,,,,,,,,,,,,,,,,,,,SC:CP:CP:SC:fail
+,,,,,,,,,,,,,,,,,,,,,SC:SC:SC:SC
+,,,,,,,,,,,,,,,,,,,,,SC:SSp:SSp
+,,,,,,,,,,,,,,,,,,,,,SCig-b:SCig:LD
+,,,,,,,,,,,,,,,,,,,,,SCig:PAG:VM
+,,,,,,,,,,,,,,,,,,,,,SCig:SCig:POST
+,,,,,,,,,,,,,,,,,,,,,SCm Superior colliculus;motor related
+,,,,,,,,,,,,,,,,,,,,,SCm;RSPv;MRN;VAL
+,,,,,,,,,,,,,,,,,,,,,SCs_sg:SCs_sg:LP
+,,,,,,,,,,,,,,,,,,,,,SCsg:MRN:POST
+,,,,,,,,,,,,,,,,,,,,,SFG
+,,,,,,,,,,,,,,,,,,,,,SI Substantia innominata
+,,,,,,,,,,,,,,,,,,,,,SI:CA1:CA1
+,,,,,,,,,,,,,,,,,,,,,SI:OT:SI:fail
+,,,,,,,,,,,,,,,,,,,,,SI:SUB:SUB
+,,,,,,,,,,,,,,,,,,,,,SN
+,,,,,,,,,,,,,,,,,,,,,SNc:fail:CPi
+,,,,,,,,,,,,,,,,,,,,,SOG
+,,,,,,,,,,,,,,,,,,,,,SPFm/VM:SPA/VPMpc/SPFm:VM
+,,,,,,,,,,,,,,,,,,,,,spinal chord
+,,,,,,,,,,,,,,,,,,,,,spinal cord
+,,,,,,,,,,,,,,,,,,,,,Spinal cord
+,,,,,,,,,,,,,,,,,,,,,SPL
+,,,,,,,,,,,,,,,,,,,,,"SPVI Spinal nucleus of the trigeminal, interpolar part"
+,,,,,,,,,,,,,,,,,,,,,SPVI:SSp-bfd:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,SSp
+,,,,,,,,,,,,,,,,,,,,,SSP
+,,,,,,,,,,,,,,,,,,,,,SsP bfd
+,,,,,,,,,,,,,,,,,,,,,Ssp bfd
+,,,,,,,,,,,,,,,,,,,,,SSp-ll
+,,,,,,,,,,,,,,,,,,,,,SSp-ll:SSp-ul:SSp-bfd
+,,,,,,,,,,,,,,,,,,,,,SSp-m
+,,,,,,,,,,,,,,,,,,,,,SSp-ul
+,,,,,,,,,,,,,,,,,,,,,SSp-ul Primary somatosensory area;upper limb
+,,,,,,,,,,,,,,,,,,,,,SSp-ul_4/5:SSp-m_4/5:SSs/VISC
+,,,,,,,,,,,,,,,,,,,,,SSp-ul:SSp-ll:MOp:MOs
+,,,,,,,,,,,,,,,,,,,,,SSp-ul:SSp-ll:MOs:MOs
+,,,,,,,,,,,,,,,,,,,,,SSp-ul:SSp-ul:SSp-bfd:CP
+,,,,,,,,,,,,,,,,,,,,,Ssp-ul:SSp-ul:SSp-ll
+,,,,,,,,,,,,,,,,,,,,,Ssp-ul:SSp-ul:SSp-ul
+,,,,,,,,,,,,,,,,,,,,,SSp;SSs;MOp;MOs
+,,,,,,,,,,,,,,,,,,,,,SSp:MOp:MOp
+,,,,,,,,,,,,,,,,,,,,,SSp:MOpul:MOp
+,,,,,,,,,,,,,,,,,,,,,SSp:RSPd:SCig
+,,,,,,,,,,,,,,,,,,,,,SSp:SSp:CLI
+,,,,,,,,,,,,,,,,,,,,,SSp:SSp:MOp
+,,,,,,,,,,,,,,,,,,,,,SSp:SSp:SSp
+,,,,,,,,,,,,,,,,,,,,,SSs
+,,,,,,,,,,,,,,,,,,,,,SSs Supplemental somatosensory area
+,,,,,,,,,,,,,,,,,,,,,SSs_4:SSs/VISC_5:SSs/VISC_2/3/4:fail
+,,,,,,,,,,,,,,,,,,,,,SSs-cv;SSp-ul;MOp-ul;MOs-ul
+,,,,,,,,,,,,,,,,,,,,,SSs:MOp:MOp
+,,,,,,,,,,,,,,,,,,,,,STG
+,,,,,,,,,,,,,,,,,,,,,STR
+,,,,,,,,,,,,,,,,,,,,,STR:VISp:VISp
+,,,,,,,,,,,,,,,,,,,,,striatum
+,,,,,,,,,,,,,,,,,,,,,Striatum
+,,,,,,,,,,,,,,,,,,,,,striatum (30x)
+,,,,,,,,,,,,,,,,,,,,,subcortical claustrum; cortical intratelencephalic Layer 6
+,,,,,,,,,,,,,,,,,,,,,Subesophageal zone (SEZ)
+,,,,,,,,,,,,,,,,,,,,,substantia nigra
+,,,,,,,,,,,,,,,,,,,,,SUBv:CA1v:CA1v
+,,,,,,,,,,,,,,,,,,,,,SUBv:SUBv:SUBv
+,,,,,,,,,,,,,,,,,,,,,SUBvv:CA1vv:CA1vv
+,,,,,,,,,,,,,,,,,,,,,SUBvv:SUBv:SUBv
+,,,,,,,,,,,,,,,,,,,,,SUM Supramammillary nucleus
+,,,,,,,,,,,,,,,,,,,,,TCx
+,,,,,,,,,,,,,,,,,,,,,Tea
+,,,,,,,,,,,,,,,,,,,,,TEa
+,,,,,,,,,,,,,,,,,,,,,TEa:ACB:AHN:VMH
+,,,,,,,,,,,,,,,,,,,,,TEa2/3
+,,,,,,,,,,,,,,,,,,,,,TemL
+,,,,,,,,,,,,,,,,,,,,,Temporal Cortex
+,,,,,,,,,,,,,,,,,,,,,TH; STR
+,,,,,,,,,,,,,,,,,,,,,TTd:AI:AUDv
+,,,,,,,,,,,,,,,,,,,,,TTd:fail:PH
+,,,,,,,,,,,,,,,,,,,,,TTd:RE:fail
+,,,,,,,,,,,,,,,,,,,,,V;VII
+,,,,,,,,,,,,,,,,,,,,,VAL Ventral anterior-lateral complex of the thalamus
+,,,,,,,,,,,,,,,,,,,,,VAL:GPi:RT:VPL
+,,,,,,,,,,,,,,,,,,,,,VAL:MOp-ul:SSp-ul
+,,,,,,,,,,,,,,,,,,,,,VAL:SSp:VAL:VAL
+,,,,,,,,,,,,,,,,,,,,,VCO Ventral cochlear nucleus
+,,,,,,,,,,,,,,,,,,,,,Ventral nerve cord (VNC)
+,,,,,,,,,,,,,,,,,,,,,vhc:CA3:SUBv
+,,,,,,,,,,,,,,,,,,,,,VIPs
+,,,,,,,,,,,,,,,,,,,,,VISa
+,,,,,,,,,,,,,,,,,,,,,VISal
+,,,,,,,,,,,,,,,,,,,,,VISal Anterolateral visual area
+,,,,,,,,,,,,,,,,,,,,,VISam
+,,,,,,,,,,,,,,,,,,,,,VISl
+,,,,,,,,,,,,,,,,,,,,,VISl Lateral visual area
+,,,,,,,,,,,,,,,,,,,,,VISl1
+,,,,,,,,,,,,,,,,,,,,,VISp
+,,,,,,,,,,,,,,,,,,,,,VISp Primary visual area
+,,,,,,,,,,,,,,,,,,,,,VISp:VISp:SSp
+,,,,,,,,,,,,,,,,,,,,,VISp1
+,,,,,,,,,,,,,,,,,,,,,VISp2/3
+,,,,,,,,,,,,,,,,,,,,,VISpl2/3
+,,,,,,,,,,,,,,,,,,,,,VISpm
+,,,,,,,,,,,,,,,,,,,,,VISpm posteromedial visual area
+,,,,,,,,,,,,,,,,,,,,,VISpm1
+,,,,,,,,,,,,,,,,,,,,,VISpm4
+,,,,,,,,,,,,,,,,,,,,,VISpor1
+,,,,,,,,,,,,,,,,,,,,,VISrl Rostrolateral visual area
+,,,,,,,,,,,,,,,,,,,,,VM:MOp:SCig
+,,,,,,,,,,,,,,,,,,,,,VM:SCig:ILA
+,,,,,,,,,,,,,,,,,,,,,VMH:fail:MEAav
+,,,,,,,,,,,,,,,,,,,,,VMHdm:DMHa:PMd:RCH
+,,,,,,,,,,,,,,,,,,,,,VMHvl:sm:PMd:BSTif
+,,,,,,,,,,,,,,,,,,,,,VPL
+,,,,,,,,,,,,,,,,,,,,,VPL:PF:CP:MOs
+,,,,,,,,,,,,,,,,,,,,,VPL:PO:RT
+,,,,,,,,,,,,,,,,,,,,,VPL:VPL:VAL
+,,,,,,,,,,,,,,,,,,,,,VPM
+,,,,,,,,,,,,,,,,,,,,,VPM:LD:RT
+,,,,,,,,,,,,,,,,,,,,,VPM:PO:RT
+,,,,,,,,,,,,,,,,,,,,,VPM:VPL:RT
+,,,,,,,,,,,,,,,,,,,,,VPMpc:VPM:VPM:VM
+,,,,,,,,,,,,,,,,,,,,,VTA Ventral tegmental area
+,,,,,,,,,,,,,,,,,,,,,VTA:APN:MRN:RN
+,,,,,,,,,,,,,,,,,,,,,Whole brain
+,,,,,,,,,,,,,,,,,,,,,whole brain
+,,,,,,,,,,,,,,,,,,,,,Whole Brain
+,,,,,,,,,,,,,,,,,,,,,Whole brain (10x) (dendritome)
+,,,,,,,,,,,,,,,,,,,,,Whole brain (10x); Cortex (30x)
+,,,,,,,,,,,,,,,,,,,,,Whole brain (10x); Striatum (30x)
+,,,,,,,,,,,,,,,,,,,,,Whole CNS
+,,,,,,,,,,,,,,,,,,,,,Whole spinal cord
+,,,,,,,,,,,,,,,,,,,,,XII: ECU/SPVI.d:fail
+,,,,,,,,,,,,,,,,,,,,,XII:SPVI.v:SPVId
+,,,,,,,,,,,,,,,,,,,,,ZI:DHM:ZI
+,,,,,,,,,,,,,,,,,,,,,ZI:VTA:CPD

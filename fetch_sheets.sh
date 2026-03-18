@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-OUTDIR="${1:-_data}"
+OUTDIR="${1:-assets/data}"
 mkdir -p "$OUTDIR"
 cd "$OUTDIR"
 
