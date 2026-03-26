@@ -406,3 +406,17 @@ body {
 .table-error {
   color: #c00;
 }
+
+.sheet-source {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+}
+
+.sheet-source a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.sheet-source a:hover {
+  text-decoration: underline;
+}

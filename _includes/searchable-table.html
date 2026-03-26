@@ -1,8 +1,8 @@
 {% comment %}
   Lazy-loads a CSV and renders a searchable table.
-  Usage: {% include searchable-table.html data_url="/assets/data/s2_tracer_injections_tab1.csv" tab_name="Dong" %}
+  Optional table_config: key in table-search.js TABLE_CONFIG (column hide/rename).
 {% endcomment %}
-<div class="searchable-table-wrapper" data-src="{{ include.data_url | relative_url }}">
+<div class="searchable-table-wrapper" data-src="{{ include.data_url | relative_url }}"{% if include.table_config %} data-table-config="{{ include.table_config }}"{% endif %}>
   {% if include.tab_name %}
   <div class="table-tab-label">{{ include.tab_name }}</div>
   {% endif %}

@@ -1,4 +1,61 @@
 (function () {
+  var TABLE_CONFIG = {
+    's4-full': {
+      hide: { exact: ['QC', 'Comments', 'Metadata Submission'] }
+    },
+    's4-allen': {
+      hide: {
+        exact: ['Download Link', 'Visualization Link'],
+        regex: [/^Soma_[XYZ]\(/]
+      }
+    },
+    's4-local': {
+      hide: { exact: ['QC', 'Metadata Submission', 'Comments'] }
+    },
+    's6': {
+      rename: { 'R24 Name': 'Imaging Database', 'R24 Link': 'Imaging Datalink' }
+    }
+  };
+
+  function columnHidden(name, hideRules) {
+    if (!hideRules) return false;
+    var n = String(name).trim();
+    if (hideRules.exact) {
+      for (var i = 0; i < hideRules.exact.length; i++) {
+        if (hideRules.exact[i] === n) return true;
+      }
+    }
+    if (hideRules.regex) {
+      for (var j = 0; j < hideRules.regex.length; j++) {
+        if (hideRules.regex[j].test(n)) return true;
+      }
+    }
+    return false;
+  }
+
+  function applyColumnConfig(headerRow, dataRows, cfg) {
+    if (!cfg) return { headers: headerRow, rows: dataRows };
+    var rename = cfg.rename || {};
+    var hide = cfg.hide;
+    var keep = [];
+    var i;
+    for (i = 0; i < headerRow.length; i++) {
+      var orig = String(headerRow[i]).trim();
+      if (columnHidden(orig, hide)) continue;
+      keep.push(i);
+    }
+    var newHeaders = keep.map(function (idx) {
+      var o = String(headerRow[idx]).trim();
+      return rename[o] !== undefined ? rename[o] : o;
+    });
+    var newRows = dataRows.map(function (row) {
+      return keep.map(function (idx) {
+        return row[idx] != null ? row[idx] : '';
+      });
+    });
+    return { headers: newHeaders, rows: newRows };
+  }
+
   function parseCSV(text) {
     const rows = [];
     let row = [];
@@ -140,6 +197,9 @@
     const container = wrapper.querySelector('.table-scroll-container');
     if (!container) return;
 
+    const configKey = wrapper.getAttribute('data-table-config');
+    const colCfg = configKey && TABLE_CONFIG[configKey] ? TABLE_CONFIG[configKey] : null;
+
     fetch(src)
       .then(function (r) { return r.text(); })
       .then(function (text) {
@@ -149,8 +209,11 @@
           container.innerHTML = '<p class="table-error">No data or invalid CSV.</p>';
           return;
         }
-        const headerRow = rows[0];
-        const dataRows = rows.slice(1);
+        let headerRow = rows[0];
+        let dataRows = rows.slice(1);
+        const out = applyColumnConfig(headerRow, dataRows, colCfg);
+        headerRow = out.headers;
+        dataRows = out.rows;
         container.innerHTML = '';
         container.appendChild(buildTable(headerRow, dataRows));
         initSearch(wrapper);
