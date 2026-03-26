@@ -21,12 +21,10 @@ title: Data Sets
      
 ## BIL Datasets (S5)
 <span style="color: #555; font-size: 0.95em;">
-  This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within each table below.
+  This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within the table below.
 </span>
 
-{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab1.csv" tab_name="2023-09-05-summarymetadata" %}
-{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab2.csv" tab_name="Tallies" %}
-{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab3.csv" tab_name="Brainstorm Labels" %}
+{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab1.csv" %}
 
 ## Tracer injections (S2)
 
