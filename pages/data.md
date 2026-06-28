@@ -18,15 +18,6 @@ title: Data Sets
   - Local neuron tracings
   - Full neuron tracings
   - Cell counts
-     
-## BIL Datasets (S5)
-<span style="color: #555; font-size: 0.95em;">
-  This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within the table below.
-</span>
-
-{% include sheet-source-link.html url="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYWHhi0RrbjRJoq7d_VUju8wv_5IsEbWSfvi-QDLwGxzjSIxiNo13e6xfPWZhQMg/pubhtml" %}
-
-{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab1.csv" %}
 
 ## Tracer injections (S2)
 
@@ -58,6 +49,15 @@ title: Data Sets
 {% include sheet-source-link.html url="https://docs.google.com/spreadsheets/d/e/2PACX-1vRDg5ps2lyOaf26U5mOJr9d9IAb_9AN5YGEmoC2rsJDTY22-3nwRSl5Rydptwk6NA/pubhtml" %}
 
 {% include searchable-table.html data_url="/assets/data/s6_cell_distributions_tab1.csv" table_config="s6" %}
+
+## BIL Datasets (S5)
+<span style="color: #555; font-size: 0.95em;">
+  This table lists the Brain Image Library (BIL) datasets and their associated metadata used in the study. You can scroll and search within the table below.
+</span>
+
+{% include sheet-source-link.html url="https://docs.google.com/spreadsheets/d/e/2PACX-1vTYWHhi0RrbjRJoq7d_VUju8wv_5IsEbWSfvi-QDLwGxzjSIxiNo13e6xfPWZhQMg/pubhtml" %}
+
+{% include searchable-table.html data_url="/assets/data/s5_bil_datasets_tab1.csv" %}
 
 ## Access
 All datasets are available under  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
