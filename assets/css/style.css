@@ -1,10 +1,10 @@
 /* Base styles */
 :root {
-    --primary-color: #1a237e;    /* Deep blue */
-    --accent-color: #00bcd4;     /* Cyan */
-    --background-color: #f5f5f5; /* Light grey */
-    --text-color: #212121;       /* Dark grey */
-    --header-gradient: linear-gradient(135deg, #1a237e 0%, #303f9f 100%);
+    --primary-color: #222222;
+    --accent-color: #555555;
+    --background-color: #f5f5f5;
+    --text-color: #212121;
+    --header-gradient: linear-gradient(135deg, #222 0%, #444 100%);
 }
 
 body {
@@ -102,7 +102,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--accent-color);
+    background-color: #999;
     transition: width 0.2s ease;
 }
 
@@ -134,8 +134,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(rgba(10,10,26,0.7), rgba(10,10,26,0.7)), 
-                url('../images/axons_4_3.jpeg') center/cover;
+    background: #1a1a1a;
     padding: 6rem 2rem;
     color: white;
 }
