@@ -22,7 +22,7 @@ title: Papers
   margin: 16px 0;
 ">
   <iframe
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ0jxlTZ8PqOTEUl5KJGbNszH2STGI7R1gNqdpb0IAulkNgkXVGO7JnIiYQ3bxVrA0DsLe5Gdkp6dD/pubhtml?gid=50646105&amp;single=true&amp;widget=true&amp;headers=false""
+    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQ0jxlTZ8PqOTEUl5KJGbNszH2STGI7R1gNqdpb0IAulkNgkXVGO7JnIiYQ3bxVrA0DsLe5Gdkp6dD/pubhtml?gid=50646105&amp;single=true&amp;widget=true&amp;headers=false"
     width="100%"
     height="400"
     style="border: none; border-radius: 6px; background: white;"
