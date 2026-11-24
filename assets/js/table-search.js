@@ -108,16 +108,51 @@
     return typeof s === 'string' && (s.indexOf('http://') === 0 || s.indexOf('https://') === 0);
   }
 
-  function renderCell(val) {
-    const s = escapeHtml(String(val == null ? '' : val));
+  var metadataLinksPromise;
+
+  function loadMetadataLinks(src) {
+    if (!src) return Promise.resolve({});
+    if (!metadataLinksPromise) {
+      metadataLinksPromise = fetch(src)
+        .then(function (r) {
+          if (!r.ok) throw new Error('Failed to load BIL metadata mappings');
+          return r.json();
+        })
+        .catch(function (error) {
+          console.warn('BIL metadata mappings unavailable; showing source links.', error);
+          return {};
+        });
+    }
+    return metadataLinksPromise;
+  }
+
+  function displayedValue(val, metadataLinks) {
+    const original = String(val == null ? '' : val);
+    if (!isURL(original)) return original;
+    try {
+      const source = new URL(original);
+      if (source.hostname !== 'download.brainimagelibrary.org' || /\.swc$/i.test(source.pathname)) return original;
+      if (!Object.prototype.hasOwnProperty.call(metadataLinks, original)) return original;
+      const replacement = metadataLinks[original];
+      if (typeof replacement !== 'string') return original;
+      const target = new URL(replacement);
+      if (target.protocol === 'https:' && target.hostname === 'api.brainimagelibrary.org' && target.pathname === '/web/view' && target.searchParams.get('bildid')) {
+        return replacement;
+      }
+    } catch (_) {}
+    return original;
+  }
+
+  function renderCell(val, metadataLinks) {
+    const s = displayedValue(val, metadataLinks);
     if (isURL(s)) {
       const display = s.length > 60 ? s.slice(0, 60) + '…' : s;
       return '<a href="' + escapeHtml(s) + '" target="_blank" rel="noopener">' + escapeHtml(display) + '</a>';
     }
-    return s;
+    return escapeHtml(s);
   }
 
-  function buildTable(headerRow, dataRows) {
+  function buildTable(headerRow, dataRows, metadataLinks) {
     const thead = document.createElement('thead');
     const headerTr = document.createElement('tr');
     headerRow.forEach(function (h) {
@@ -133,7 +168,7 @@
       tr.className = 'data-row';
       row.forEach(function (cell) {
         const td = document.createElement('td');
-        td.innerHTML = renderCell(cell);
+        td.innerHTML = renderCell(cell, metadataLinks);
         tr.appendChild(td);
       });
       tbody.appendChild(tr);
@@ -200,9 +235,13 @@
     const configKey = wrapper.getAttribute('data-table-config');
     const colCfg = configKey && TABLE_CONFIG[configKey] ? TABLE_CONFIG[configKey] : null;
 
-    fetch(src)
-      .then(function (r) { return r.text(); })
-      .then(function (text) {
+    Promise.all([
+      fetch(src).then(function (r) { return r.text(); }),
+      loadMetadataLinks(wrapper.getAttribute('data-bil-metadata-src'))
+    ])
+      .then(function (result) {
+        let text = result[0];
+        const metadataLinks = result[1];
         if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
         const rows = parseCSV(text);
         if (rows.length < 2) {
@@ -215,7 +254,7 @@
         headerRow = out.headers;
         dataRows = out.rows;
         container.innerHTML = '';
-        container.appendChild(buildTable(headerRow, dataRows));
+        container.appendChild(buildTable(headerRow, dataRows, metadataLinks));
         initSearch(wrapper);
       })
       .catch(function () {

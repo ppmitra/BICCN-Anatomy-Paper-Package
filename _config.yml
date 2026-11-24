@@ -17,3 +17,6 @@ exclude:
   - vendor
   - LICENSE
   - README.md
+  - scripts
+  - tests
+  - outputs
